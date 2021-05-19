@@ -60,45 +60,49 @@ $faqs = [
 
 <body>
 
-    <header class="d-flex">
+    <header>
 
-        <div class="header-left d-flex">
-            <a href="#">
-                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="logo">
-            </a>
-            <a href="#">Privacy e termini</a>
+        <div class="header-top d-flex">
+            <div class="header-left d-flex">
+                <a href="#">
+                    <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="logo">
+                </a>
+                <a href="#">Privacy e termini</a>
+            </div>
+
+            <div class="header-right d-flex">
+                <a href="#">
+                    <i class="fas fa-ellipsis-v"></i>
+                </a>
+                <a href="#">
+                    <img class="avatar" src="https://banner2.cleanpng.com/20180706/qsh/kisspng-computer-icons-avatar-user-profile-woman-woman-power-symbol-5b3fb75919cc26.7982583515309023611057.jpg" alt="">
+                </a>
+            </div>
         </div>
 
-        <div class="d-flex">
-            <a href="#">
-                <i class="fas fa-ellipsis-v"></i>
-            </a>
-            <a href="#">
-                <img class="avatar" src="https://banner2.cleanpng.com/20180706/qsh/kisspng-computer-icons-avatar-user-profile-woman-woman-power-symbol-5b3fb75919cc26.7982583515309023611057.jpg" alt="">
-            </a>
-        </div>
+        <nav>
+            <ul class="d-flex">
+                <li>
+                    <a href="#">Introduzione</a>
+                </li>
+                <li>
+                    <a href="#">Norme sulla privacy</a>
+                </li>
+                <li>
+                    <a href="#">Termini di servizio</a>
+                </li>
+                <li>
+                    <a href="#">Tecnologie</a>
+                </li>
+                <li>
+                    <a href="#">Domande frequenti</a>
+                </li>
+            </ul>
+        </nav>
 
     </header>
 
-    <nav>
-        <ul class="d-flex">
-            <li>
-                <a href="#">Introduzione</a>
-            </li>
-            <li>
-                <a href="#">Norme sulla privacy</a>
-            </li>
-            <li>
-                <a href="#">Termini di servizio</a>
-            </li>
-            <li>
-                <a href="#">Tecnologie</a>
-            </li>
-            <li>
-                <a href="#">Domande frequenti</a>
-            </li>
-        </ul>
-    </nav>
+    
 
     <main class="container">
 

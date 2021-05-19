@@ -11,18 +11,25 @@ body {
 /* UTILITY */
 .d-flex {
     display: flex;
-    align-items: center;
 }
 
 .container {
     max-width: 1000px;
     margin: auto;
-    padding: 50px 0;
+    padding: 150px 0 50px;
 }
 
+/* HEADER */
 header {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+} 
+
+.header-top {
     justify-content: space-between;
-    padding: 20px 20px 10px 20px;
+    align-items: center;
+    padding: 20px 20px 0 20px;
 }
 
 .header-left a {
@@ -30,9 +37,13 @@ header {
     font-weight: 500;
 }
 
+.header-right {
+    align-items: center;
+}
+
 .avatar {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     object-fit: cover;
     overflow: hidden;
@@ -44,8 +55,13 @@ a {
     margin-right: 10px;
 }
 
+.header-right a:last-child  {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
 nav {
-    padding: 0 20px 10px 20px;
+    padding: 10px 20px;
     border-bottom: 1px solid rgba(151,151,151,0.5);
 }
 
@@ -59,3 +75,19 @@ nav a {
     font-weight: 500;
 }
 
+nav ul li:last-child a {
+    color: #3367d6;
+    font-weight: bold;
+    border-bottom: 3px solid #3367d6;
+    padding-bottom: 9px;
+}
+
+/* MAIN */
+h2 {
+    color: #3c4043;
+    margin: 2rem 0;
+}
+
+p {
+    line-height: 25px;
+}
