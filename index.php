@@ -101,6 +101,14 @@ $faqs = [
     </nav>
 
     <main class="container">
+
+        <?php foreach ( $faqs as $faq ) {
+            //var_dump($faq); ?>
+
+            <h2><?php echo $faq['question']; ?></h2>
+            <p><?php echo $faq['answer']; ?></p>
+
+        <?php } ?>
         
     </main>
     
